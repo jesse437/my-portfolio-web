@@ -32,7 +32,7 @@ N/A
 
 ## Visuals
 
-![alt text](<Screenshot 2024-04-11 at 6.21.00 PM.png>)
+![alt text](<assets /Screenshot 2024-04-11 at 6.21.00 PM.png>)
 
 ## Features
 
