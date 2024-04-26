@@ -1,3 +1,5 @@
+/*Ive organized my css file from top to bottom*/
+
 body {
     background: black;
     margin: 0;
@@ -7,9 +9,10 @@ body {
     font-weight: 300;
     
 }
+/*The main image on top of my website*/
 
 .hero-image {
-    background-image: url(photo-1555066931-4365d14bab8c.avif);
+    background-image: url('./assets /photo-1555066931-4365d14bab8c.avif');
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -24,6 +27,7 @@ body {
     color: white;
     text-align: center;
     align-items: center;
+
 }
 
 .hero-text h1 {
@@ -60,10 +64,9 @@ body {
     
 }
 
+/*My navigation link are here*/
 
-
-
-nav {
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,8 +90,17 @@ nav a {
     font-size: 10px;
 }
 
+.navbar a:hover {
+    background-color: blue;
+}
 
-.action-button hover {
+.action-button {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.action-button:hover {
     color: blue;
 }
 
@@ -102,38 +114,38 @@ p {
 .title{
     color: white;
 }
-.intro{
+.about-me{
 display: flex;
 
 width: 80%;
 margin: 20px auto;
 }
 
-.intro-txt{
+.about-txt{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.intro-txt h2{
+.about-txt h2{
     line-height: 40px;
     color: white;
 }
-.intro-txt p{
+.about-txt p{
     line-height: 25px;
     text-align: justify;
 }
 
-.intro-img{
+.about-img{
     width: 300px;
     margin-left: 10%;
 }
 
-
-.prework-study-guide img{
+/*please click on the image to see the magic*/
+#portfolio img{
     width: 800px;
 }
 
-.prework-study-guide {
+#portfolio {
     color: whitesmoke;
     width: 80%;
     display: flex;
@@ -143,12 +155,13 @@ margin: 20px auto;
     margin: 0 auto;
 }
 
-
-.second-my-work img{
+/*I increased the width by 15px to match the size of the first image*/
+/*Please click on the image to see the magic*/
+.portfolio2 img{
     width: 815px;
 }
 
-.second-my-work {
+.portfolio2 {
     color: whitesmoke;
     width: 80%;
     display: flex;
@@ -158,19 +171,19 @@ margin: 20px auto;
     margin: 0 auto;
 }
 
-
-.social-media{
+/*My contacts are fully functional*/
+#contact{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.social-media-contact ul{
+#contact ul{
     display: flex;
     justify-content: space-evenly;
 
     
 }
 
-.social-media-contact ul a{
+#contact ul a{
     color: white;
     text-decoration: none;
     font-size: 20px;
