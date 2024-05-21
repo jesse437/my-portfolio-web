@@ -12,7 +12,7 @@ body {
 /*The main image on top of my website*/
 
 .hero-image {
-    background-image: url('./assets /photo-1555066931-4365d14bab8c.avif');
+    background-image: url('./assets /images/photo-1555066931-4365d14bab8c.avif');
     background-position: center;
     background-size: cover;
     height: 500px;
